@@ -4,7 +4,6 @@ import { Modal, Button, ButtonToolbar } from 'react-bootstrap';
 export default class UpdateModal extends React.Component {
 
   render() {
-    console.log('selecteddata>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.', this.props.selecteddata)
     return (
       <Modal
         {...this.props}

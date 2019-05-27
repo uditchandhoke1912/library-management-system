@@ -32,7 +32,6 @@ class Dashboard extends Component {
   }
 
   render() {
-    console.log('this.state.dataToEdit>>>>>>>>>>>>>>>>>>>>>>>>>>>>.', this.state.books)
     return (
       <div>
       <div style={{textAlign:"center", fontWeight: "bold", fontSize: 24, marginTop: 20}}>
